@@ -1,0 +1,22 @@
+#historial{
+    align-items: center;
+    justify-content: center;
+    background: url(../img/fondo1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0rem;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto; 
+}
+
+
+table{
+    border:solid;
+}
+
+td{
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: solid;
+}

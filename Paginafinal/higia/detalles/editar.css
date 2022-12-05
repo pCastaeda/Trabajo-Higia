@@ -1,0 +1,43 @@
+body{
+    align-items: center;
+    justify-content: center;
+    background: url(../img/fondo1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h3{
+    color: blue;
+    margin-right: 4rem;
+}
+label{
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+div{
+    color: blue;
+    margin-left: 4rem;
+    text-align: center;
+    padding: 5px;
+}
+:root{
+    --verde: #43da3e;
+    --limon: #25a0d1;
+    --degradado: linear-gradient(90deg, var(--limon),var(--verde));
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+button{
+    /* display: inline-block; */
+    
+    padding: .3rem 3rem;
+    border-radius: 2rem;
+    background: var(--degradado);
+    font-size: 1rem;
+    color: white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    transition: all .3s linear;
+}

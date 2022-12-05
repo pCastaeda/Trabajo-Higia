@@ -1,0 +1,22 @@
+#quien{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background: url(../img/fondo1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    height: 400px;
+}
+
+p{
+    font-size: 1.5rem;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+

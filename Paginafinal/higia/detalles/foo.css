@@ -1,0 +1,25 @@
+#confi{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background: url(../img/fondo1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.footer{
+    background-color: blue;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 43%;
+    top: 70%;
+    /* -------------flexbox---------- */
+    /* margin-top: auto; */
+}
+
+a{
+    text-decoration: none;
+}
